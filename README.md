@@ -5,28 +5,27 @@
 
 
 ---
-### cmd
-0. roscore  실행
+### 0. roscore  실행
 
 ```
 roscore
 ```
    
-1. 새로운 terminal 창에 아래 명령들 실행
+### 1. 새로운 terminal 창에 아래 명령들 실행
    
 ```
 rosbag play <bag file>   
 rosrun auto_merging int_to_np.py
 ```
-   /map 받아와서 행렬로 저장 (rosbag파일 필요)
-   위의 코드 진행 시, Occupancy grid map 아래 영상과 같이 변환
+/map 받아와서 행렬로 저장 (rosbag파일 필요)
+위의 코드 진행 시, Occupancy grid map 아래 영상과 같이 변환
 
 ```
 rosrun auto_merging priority.py
 ```
-   input map들을 비교하여 사이즈가 큰 맵부터 우선순위를 설정
+input map들을 비교하여 사이즈가 큰 맵부터 우선순위를 설정
 
 ```
 rosrun auto_merging merge_with_np_optimization.py
 ```
-   위의 코드에서 받은 우선순위에 맞춰 순서대로 map 정합
+위의 코드에서 받은 우선순위에 맞춰 순서대로 map 정합
