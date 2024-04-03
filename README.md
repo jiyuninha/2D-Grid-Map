@@ -6,22 +6,24 @@
 
 ---
 ### cmd
-   '''
-   roscore
-   '''
+'''
+roscore
+'''
    
 1. /map topic을 받아와서 numpy행렬로 저장 (rosbag파일 필요)
    
-   '''
-   rosbag play <bag file>
-   
-   rosrun auto_merging int_to_np.py
-   '''
+'''
+rosbag play <bag file>   
+rosrun auto_merging int_to_np.py
+'''
 3. 정합
-   '''
-   rosrun auto_merging merge_with_np_optimization.py
-   '''
+
+'''
+rosrun auto_merging merge_with_np_optimization.py
+'''
+
 4. 우선순위 확인
-   '''
-   rosrun auto_merging priority.py
-   '''
+
+'''
+rosrun auto_merging priority.py
+'''
