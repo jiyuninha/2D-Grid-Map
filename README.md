@@ -19,6 +19,7 @@ rosrun auto_merging int_to_np.py
 ```
 > ##### /map 받아와서 행렬로 저장 (rosbag파일 필요)
 <img src="https://github.com/jiyuninha/2D-Grid-Map/assets/116269778/5312fb84-dd34-4623-ae58-a62ddb8f3eb6">
+
 >   > map을 이미지로 변환하며 생기는 interpolation 이슈로 map 생성 시, boolean값 받아옴
 
 > ##### 위의 코드 진행 시, Occupancy grid map 아래 영상과 같이 변환
