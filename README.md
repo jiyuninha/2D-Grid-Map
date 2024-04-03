@@ -38,3 +38,6 @@ rosrun auto_merging priority.py
 ```
 rosrun auto_merging merge_with_np_optimization.py
 ```
+### 2. 실행결과
+
+<img src='https://github.com/jiyuninha/2D-Grid-Map/assets/116269778/eb4dad36-a4d6-49fb-b2ac-dba7ba2c5f5e'>
