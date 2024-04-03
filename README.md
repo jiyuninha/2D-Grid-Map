@@ -19,7 +19,7 @@ rosrun auto_merging int_to_np.py
 ```
 /map 받아와서 행렬로 저장 (rosbag파일 필요)
 위의 코드 진행 시, Occupancy grid map 아래 영상과 같이 변환
-<img src="">
+<img src="https://github.com/jiyuninha/2D-Grid-Map/assets/116269778/dadc7328-7865-4203-8a91-7ca513279d38">
 ```
 rosrun auto_merging priority.py
 ```
